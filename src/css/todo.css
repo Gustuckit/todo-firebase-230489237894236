@@ -1,0 +1,30 @@
+/* .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: whitesmoke;
+} */
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+input {
+    color: rgba(255, 0, 0, 0.658);
+}
+
+.todo {
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.336);
+}
+
+.todo-text {
+    text-align: center;
+    width: 222px;
+    overflow-x: auto;
+}
